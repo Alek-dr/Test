@@ -10,10 +10,9 @@ import matplotlib.pyplot as plt
 
 class Gauss:
 
-    def __init__(self, mean, std, var):
+    def __init__(self, mean, std):
         self.mean = mean
         self.std = std
-        self.var = var
 
     def prob(self, x):
         """
